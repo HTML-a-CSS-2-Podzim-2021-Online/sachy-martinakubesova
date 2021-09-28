@@ -1,0 +1,133 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+	font-family: sans-serif;   
+    max-width: 600px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+    width: 40px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+.hraci {
+    display: grid;
+    grid-template-columns: 40px 1fr 1fr 40px;
+    gap: 5px;
+}
+
+.adela {
+    grid-column-start: 4;
+}
+
+.popisekadela {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    text-align: right;
+}
+
+h2 {
+    margin: 0;
+ }
+
+p {
+    margin: 0
+}
+
+.sachovnice {
+    border: 8px solid rgb(71, 37, 37);
+    border-radius: 5px;
+    background-image: url(obrazky/sachovnice.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    aspect-ratio: 1 / 1;
+    padding: 0;
+}
+
+.strelec-cerna {
+    grid-column-start: 5;
+    width: 100%;
+}
+
+.pesec-cerna1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 100%;
+}
+
+.pesec-cerna2 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    width: 100%;
+}
+
+.pesec-bila {
+    grid-column-start: 4;
+    grid-row-start: 4;
+    width: 100%;
+}
+
+.pesec-cerna3 {
+    grid-column-start: 8;
+    grid-row-start: 4;
+    width: 100%;
+}
+
+.kun-bila {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    width: 100%;
+}
+
+.kral-cerna {
+    grid-column-start: 6;
+    grid-row-start: 6;
+    width: 100%;
+}
+
+.pesec-cerna1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 100%;
+}
+
+.vez-cerna {
+    grid-column-start: 3;
+    grid-row-start: 8;
+    width: 100%;
+}
+
+.kral-bila {
+    grid-column-start: 6;
+    grid-row-start: 8;
+    width: 100%;
+}
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: rgb(103, 141, 223);
+    text-align: center;
+    padding: 5px 35px;
+    border-radius: 5px;
+}
+
+
+
